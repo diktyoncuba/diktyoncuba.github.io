@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Informes trimestrales
+description: Informes periódicos sobre la salud de Internet en Cuba
 image:
 
 # Badge style
