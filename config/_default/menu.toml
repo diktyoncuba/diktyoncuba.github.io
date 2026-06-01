@@ -10,7 +10,7 @@
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/diktyoncuba/"
+    url        = "https://github.com/diktyoncuba/public/tree/main/Informes"
 
     [social.params]
         icon = "brand-github"
