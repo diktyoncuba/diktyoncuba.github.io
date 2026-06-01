@@ -2,10 +2,10 @@
 title: Sobre el grupo Diktyon
 description: Quiénes somos y labor realizada por el grupo
 slug: about
-date: 2022-03-06 00:00:00+0000
+date: 2026-03-06 00:00:00+0000
 image: Diktyon.png
 categories:
-    - About
+    - Definiciones
 tags:
     - About
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
