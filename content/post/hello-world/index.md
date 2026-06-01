@@ -1,7 +1,7 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
+title: Sobre el grupo Diktyon
+description: Quiénes somos y labor realizada por el grupo
+slug: about
 date: 2022-03-06 00:00:00+0000
 image: Diktyon.png
 categories:
