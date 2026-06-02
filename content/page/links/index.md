@@ -1,10 +1,15 @@
 ---
-title: Links
+title: Enlaces
 links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: OONI
+    description: Plataforma de pruebas de censura.
+    website: https://ooni.org
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+
 menu:
     main: 
         weight: 4
