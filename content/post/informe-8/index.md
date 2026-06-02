@@ -3,6 +3,17 @@ title: Informe 8
 description: Informe de salud de Internet y censura en Cuba - Primer trimestre 2026
 date: 2026-04-01 00:00:00+0000
 image: Diktyon_inf8.png
+categories:
+    - Informes
+tags:
+    - OONI 
+    - Tor
+    - Psiphon
+    - VPN
+    - DPI
+    - Cuba
+    - Derechos digitales
+    - Monitoreo
 ---
 
 Hugo theme Stack supports the creation of interactive image galleries using Markdown. It's powered by [PhotoSwipe](https://photoswipe.com/) and its syntax was inspired by [Typlog](https://typlog.com/).
