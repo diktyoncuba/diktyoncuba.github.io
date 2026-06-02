@@ -34,3 +34,29 @@ Diktyon es un equipo dedicado a la defensa de la libertad de expresión y el acc
 5. Divulgación y educación pública: Elaboramos reportes, artículos y contenidos accesibles en redes sociales y plataformas digitales, destinados tanto al público general como a medios independientes y organizaciones que defienden los derechos fundamentales.
 6. Estas actividades se complementan con la verificación técnica de datos y la publicación en un lenguaje claro, lo que nos permite no solo informar, sino también incidir, educar y fortalecer la conciencia pública sobre la censura digital en Cuba.
 
+## Sobre esta web
+
+A lo largo del sitio utilizamos varias categorías y etiquetas para clasificar y agrupar el contenido de este sitio web. 
+
+Las **categorías** que utilizamos son amplias y estructurales, reflejando las grandes líneas temáticas.
+
+Las etiquetas o **tags** son más granulares y transversales entre categorías.
+
+### Categorías
+
+- Censura — bloqueos, restricciones de acceso, técnicas de filtrado
+- Conectividad — cortes, microcortes, salud de la red, infraestructura
+- Análisis — estudios técnicos, investigaciones, comparativas
+- Informes — reportes periódicos de monitoreo
+- Geopolítica — cooperación tecnológica internacional, vigilancia, política digital
+- Educación — contenidos divulgativos, guías, explicaciones para el público general
+- Definiciones — (ya la usas, buena para glosarios y conceptos técnicos)
+
+
+### Tags
+
+- Herramientas y técnicas: OONI, Tor, Psiphon, VPN, DPI, throttling, BGP, DNS
+- Fenómenos documentados: bloqueo, corte de internet, microcorte, ancho de banda, apagón digital, geobloqueo
+- Contexto geográfico y político: Cuba, ETECSA, cooperación Cuba-Venezuela, cooperación Cuba-China, vigilancia
+- Tipo de contenido: datos técnicos, cronología, caso de estudio, monitoreo, herramientas de evasión
+- Derechos y sociedad: libertad de expresión, derechos digitales, acceso a la información, sociedad civil
