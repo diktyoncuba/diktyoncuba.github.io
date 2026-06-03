@@ -16,13 +16,13 @@
     [social.params]
         icon = "brand-github"
 
-[[social]]
-    identifier = "twitter"
-    name       = "Twitter/X"
-    url        = "https://x.com/DiktyonCuba"
+#[[social]]
+#    identifier = "twitter"
+#    name       = "Twitter/X"
+#    url        = "https://x.com/DiktyonCuba"
 
-    [social.params]
-        icon = "brand-twitter"
+#    [social.params]
+#        icon = "brand-twitter"
 
 [[social]]
     identifier = "x"
@@ -35,10 +35,10 @@
 [[social]]
     identifier = "facebook"
     name       = "Facebook"
-    url        = "https://www.telegram.com/DiktyonCuba/"
+    url        = "https://www.facebook.com/DiktyonCuba/"
 
     [social.params]
-        icon = "brand-telegram"
+        icon = "brand-facebook"
 
 [[social]]
     identifier = "instagram"
@@ -47,4 +47,12 @@
 
     [social.params]
         icon = "brand-instagram"
+        
+[[social]]
+    identifier = "telegram"
+    name       = "Telegram"
+    url        = "https://www.telegram.org/DiktyonCuba/"
+
+    [social.params]
+        icon = "brand-telegram"
         
