@@ -18,8 +18,8 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = "🇨🇺"
+    subtitle = "Censura, salud de Internet y conectividad dentro de Cuba"
     avatar   = "img/avatar.png"
 
 [article]
