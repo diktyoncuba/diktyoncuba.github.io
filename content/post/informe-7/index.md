@@ -37,5 +37,7 @@ Para este análisis, se utilizaron herramientas como OONI, WireShark, Cloudflare
 
 5. Cuba sufrió **tres grandes cortes de Internet**. Dos de ellos, en octubre y diciembre de 2024, causados por apagones eléctricos a nivel nacional. En noviembre de 2024, se registró otro corte de Internet, ocurrido por causas meteorológicas que también provocaron interrupciones en el suministro eléctrico a nivel nacional.
 
+----
+## ENLACE DE DESCARGA
 
 > [Descargar aquí el Informe 7 completo](https://github.com/diktyoncuba/public/blob/main/Informes/Informe-7_Oct-Dic-2024.pdf)
