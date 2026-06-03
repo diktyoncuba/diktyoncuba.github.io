@@ -37,7 +37,7 @@
     url        = "https://www.facebook.com/DiktyonCuba/"
 
     [social.params]
-        icon = "brand-facebook"
+        icon = "Telegram_black"
 
 [[social]]
     identifier = "instagram"
@@ -45,5 +45,5 @@
     url        = "https://www.instagram.com/DiktyonCuba/"
 
     [social.params]
-        icon = "brand-instagram"
+        icon = "Telegram_white"
         
