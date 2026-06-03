@@ -30,3 +30,20 @@
 
     [social.params]
         icon = "brand-x"
+
+[[social]]
+    identifier = "facebook"
+    name       = "Facebook"
+    url        = "https://www.facebook.com/DiktyonCuba/"
+
+    [social.params]
+        icon = "brand-facebook"
+
+[[social]]
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/DiktyonCuba/"
+
+    [social.params]
+        icon = "brand-instagram"
+        
