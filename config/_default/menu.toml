@@ -29,7 +29,7 @@
     url        = "https://x.com/DiktyonCuba"
 
     [social.params]
-        icon = "brand-x"
+        icon = "X"
 
 [[social]]
     identifier = "facebook"
