@@ -7,6 +7,7 @@
 #icon = "home"
 #newtab = true
 
+# Para mas iconos buscar en: https://github.com/tabler/tabler-icons/tree/main/icons
 [[social]]
     identifier = "github"
     name       = "GitHub"
@@ -29,15 +30,15 @@
     url        = "https://x.com/DiktyonCuba"
 
     [social.params]
-        icon = "X"
+        icon = "brand-x"
 
 [[social]]
     identifier = "facebook"
     name       = "Facebook"
-    url        = "https://www.facebook.com/DiktyonCuba/"
+    url        = "https://www.telegram.com/DiktyonCuba/"
 
     [social.params]
-        icon = "Telegram_black"
+        icon = "brand-telegram"
 
 [[social]]
     identifier = "instagram"
@@ -45,5 +46,5 @@
     url        = "https://www.instagram.com/DiktyonCuba/"
 
     [social.params]
-        icon = "brand-x-2"
+        icon = "brand-instagram"
         
