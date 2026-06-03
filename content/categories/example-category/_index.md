@@ -1,5 +1,5 @@
 ---
-title: Informes trimestrales
+title: Informe trimestral
 description: Informes periódicos sobre la salud de Internet en Cuba
 image:
 
