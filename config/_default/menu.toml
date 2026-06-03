@@ -22,3 +22,11 @@
 
     [social.params]
         icon = "brand-twitter"
+
+[[social]]
+    identifier = "x"
+    name       = "X"
+    url        = "https://x.com/DiktyonCuba"
+
+    [social.params]
+        icon = "brand-x"
