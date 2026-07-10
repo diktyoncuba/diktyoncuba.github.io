@@ -392,8 +392,7 @@ Finalmente, extendemos nuestro agradecimiento a todas las personas, investigador
 ### Listado de sitios censurados en Cuba
 
 
-**Leyenda**
-
+*Leyenda*
 | Código | Descripción |
 |---------|-------------|
 | NEWS | Sitios de noticias |
