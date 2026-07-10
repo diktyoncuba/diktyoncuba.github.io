@@ -138,6 +138,7 @@ El cliente detectó que la respuesta recibida en el puerto 443 no es TLS válida
 
 En el caso de las capturas por HTTP queda en evidencia al analizar las cabeceras HTTP de la respuesta de bloqueo:
 
+*Tabla 1. Captura HTTPS del sitio proyectoinventario.org*
 | #      | Tiempo(s) | Origen | Flags | Descripción |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 1      | 0.000 | Cliente  | SYN | TCP → IP:443 |
@@ -384,5 +385,107 @@ Asimismo, agradecemos a los equipos de **OONI** (Open Observatory of Network Int
 
 Finalmente, extendemos nuestro agradecimiento a todas las personas, investigadores, periodistas, activistas, organizaciones de la sociedad civil y comunidades técnicas que, desde Cuba y el exterior, continúan compartiendo información, realizando observaciones y aportando evidencia que contribuye a una mejor comprensión de la evolución del ecosistema digital cubano. Su compromiso con la transparencia y la defensa de los derechos digitales constituye un elemento esencial para el monitoreo independiente de Internet en el país.
 
+> [Descargar aquí el Informe 9 completo](https://github.com/diktyoncuba/public/blob/main/Informes/Informe-9_Abr-Jun-2026.pdf)
+
+## ANEXO
+
+### Listado de sitios censurados en Cuba
+
+
+**Leyenda**
+
+| Código | Descripción |
+|---------|-------------|
+| NEWS | Sitios de noticias |
+| HUMR | Sitios de derechos humanos |
+| POLR | Sitios críticos con el gobierno |
+| REL | Sitios relacionados con la religión |
+| ANON | Herramientas de elusión y anonimización |
+| COMT | Herramientas de comunicación |
+| ACT | Sitios relacionados con el activismo |
+| TUR | Sitios relacionados con el turismo |
+| CULTR | Sitios relacionados con la cultura |
+| ALDR | Alcohol y drogas |
+| SRCH | Motores de búsqueda |
+| 11S | Temática 11S |
+
+*Tabla con la lista de sitios censurados en Cuba. Fuente: Diktyon (2026).*
+| # | Dominio | Categoría | Enero HTTP | Enero HTTPS | Febrero HTTP | Febrero HTTPS | Marzo HTTP | Marzo HTTPS |
+|---:|----------|:---------:|-------------|--------------|---------------|----------------|-------------|--------------|
+| 1 | gatopardo.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP | Accesible |
+| 2 | nieman.harvard.edu | NEWS | Sin resultados | Accesible | Sin resultados | Accesible | Sin resultados | Accesible |
+| 3 | 14ymedio.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 4 | cibercuba.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 5 | cubanet.org | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP | Bloqueo de HTTP |
+| 6 | diariodecuba.com | NEWS | Sin resultados | Bloqueo de HTTP | Sin resultados | Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 7 | cubaencuentro.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 8 | payolibre.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 9 | periodicocubano.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 10 | univision.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 11 | asere.com | NEWS | Fallida / Bloqueo de HTTP | Fallida / Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo de HTTP |
+| 12 | cubanosporelmundo.com | NEWS | Sin resultados | Fallida / Bloqueo de HTTP | Sin resultados | Bloqueo de HTTP, Fallida | Bloqueo de HTTP | Bloqueo de HTTP |
+| 13 | rialta.org | NEWS | Sin resultados | Sin resultados | Sin resultados | Fallida | Bloqueo por DPI | Fallida, Accesible |
+| 14 | adncuba.com | NEWS | Sin resultados | Bloqueo de HTTP | Sin resultados | Sin resultados | Bloqueo por DPI | Bloqueo de HTTP |
+| 15 | martinoticias.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Fallida | Bloqueo por DPI | Fallida |
+| 16 | libertaddigital.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP, Bloqueo de HTTP | Bloqueo de TCP/IP, Bloqueo de HTTP |
+| 17 | cafefuerte.com | NEWS | Sin resultados | Fallida | Sin resultados | Fallida | Sin resultados | Fallida |
+| 18 | voanews.com | NEWS | Sin resultados | Fallida | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 19 | cubaenmiami.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 20 | cubanology.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Sin resultados | Fallida |
+| 21 | nuevoaccion.blogspot.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 22 | americateve.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 23 | somosmascuba.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 24 | cuballama.com | NEWS | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 25 | cubasindical.org | HUMR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Fallida |
+| 26 | damasdeblanco.com | HUMR | Sin resultados | Sin resultados | Sin resultados | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 27 | freedomhouse.org | HUMR | Sin resultados | Fallida | Sin resultados | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 28 | victimsofcommunism.org | HUMR | Sin resultados | Bloqueo de TCP/IP | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 29 | canf.org | HUMR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 30 | cubacenter.org | HUMR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 31 | cubafreepress.org | HUMR | Bloqueo de TCP/IP, Bloqueo de HTTP, Fallida | Bloqueo de TCP/IP | Bloqueo de TCP/IP, Bloqueo de HTTP | Bloqueo de TCP/IP | Bloqueo de TCP/IP, Bloqueo de HTTP | Bloqueo de TCP/IP |
+| 32 | solidaridadconcuba.com | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 33 | cadal.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 34 | cubalex.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP / Fallida |
+| 35 | observacuba.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP |
+| 36 | hermanos.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 37 | icj.org | HUMR | Accesible | Accesible | Accesible | Accesible | Accesible | Accesible |
+| 38 | juventudlac.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 39 | represorescubanos.com | HUMR | Bloqueo de TCP/IP | Bloqueo de HTTP / Fallida | Bloqueo de TCP/IP | Bloqueo de HTTP | Bloqueo de TCP/IP | Bloqueo de HTTP |
+| 40 | oas.org | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 41 | demoamlat.com | HUMR | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 42 | directorio.org | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 43 | cubadata.com | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 44 | cubademocraciayvida.org | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 45 | cubadecide.org | POLR | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 46 | unpacu.org | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida / Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de HTTP |
+| 47 | cubaxcuba.com | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 48 | proyectoinventario.org | POLR | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 49 | idealpress.com | REL | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de TCP/IP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de TCP/IP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo de TCP/IP |
+| 50 | shavei.org | REL | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 51 | dharmanet.org | REL | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 52 | schwarzreport.org | REL | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP | Bloqueo de TCP/IP |
+| 53 | anon.inf.tu-dresden.de | ANON | Bloqueo por DPI, Bloqueo de TCP/IP, Bloqueo de HTTP | Fallida, Bloqueo de TCP/IP | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 54 | megaproxy.com | ANON | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida, Bloqueo de HTTP | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 55 | inetprivacy.com | ANON | Bloqueo por DPI | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida | Bloqueo por DPI, Bloqueo de HTTP | Fallida |
+| 56 | change.org | ACT | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP / Fallida | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP |
+| 57 | secure.avaaz.org | ACT | Sin resultados | Fallida / Bloqueo por HTTP | Sin resultados | Bloqueo por HTTP | Bloqueo por DPI, Bloqueo de HTTP | Bloqueo por HTTP |
+| 58 | corriente.org | ACT | Bloqueo por DPI, Manipulación DNS | Sin resultados | Sin resultados | Fallida | Sin resultados | Fallida |
+| 59 | conexioncubana.net | TUR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo por DPI | Fallida, Accesible |
+| 60 | agendacuba.org | TUR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Fallida, Accesible |
+| 61 | revistaelestornudo.com | CULTR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 62 | cubanartnewsarchive.org | CULTR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP, Fallida |
+| 63 | beerinfo.com | ALDR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP | Bloqueo de TCP/IP, Bloqueo de HTTP |
+| 64 | 911truth.org | 11S | Sin resultados | Bloqueo de TCP/IP | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP, Bloqueo de HTTP |
+| 65 | apretaste.com | SRCH | Sin resultados | Bloqueo de HTTP / Fallida | Sin resultados | Sin resultados | Bloqueo de HTTP | Bloqueo de HTTP, Accesible |
+| 66 | delta.chat | COMT | Sin resultados | Bloqueo de TCP/IP | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP, Accesible, Fallida |
+| 67 | nine.testrun.org | COMT | Sin resultados | Accesible | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP, Accesible, Fallida |
+| 68 | mehl.cloud | COMT | Sin resultados | Bloqueo de TCP/IP | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP, Accesible, Fallida |
+| 69 | bcc.chat | COMT | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP, Accesible, Fallida |
+| 70 | mailchat.pl | COMT | Sin resultados | Accesible | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP, Accesible, Fallida |
+| 71 | chatmail.woodpeckersnest.space | COMT | Sin resultados | Bloqueo de TCP/IP, Fallida | Sin resultados | Sin resultados | Sin resultados | Bloqueo de TCP/IP |
+| 72 | chika.aangat.lahat.computer | COMT | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Accesible |
+| 73 | support.delta.chat | COMT | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Bloqueo de HTTP, Bloqueo de TCP/IP, Fallida |
+| 74 | soscuba.org | HUMR | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados | Sin resultados |
+| 75 | eltoque.com | NEWS | Sin resultados | Bloqueo por HTTP | Sin resultados | Bloqueo por HTTP, Error | Sin resultados | Error, Bloqueo por HTTP |
 
 > [Descargar aquí el Informe 9 completo](https://github.com/diktyoncuba/public/blob/main/Informes/Informe-9_Abr-Jun-2026.pdf)
