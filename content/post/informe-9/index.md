@@ -31,7 +31,7 @@ El trabajo de Diktyon se basa en el uso de herramientas de medición de red, el 
 
 Estos informes constituyen una fuente de referencia sobre la evolución de la censura en línea y la estabilidad de la infraestructura de conectividad en Cuba.
 
-En redes sociales: @DiktyonCuba
+En redes sociales: **@DiktyonCuba**
 
 ## INTRODUCCIÓN
 
