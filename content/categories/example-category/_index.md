@@ -1,6 +1,6 @@
 ---
-title: Informe trimestral
-description: Informes periódicos sobre la salud de Internet en Cuba
+title: Misceláneas
+description: Otros materiales sobre la salud de Internet en Cuba
 image:
 
 # Badge style
