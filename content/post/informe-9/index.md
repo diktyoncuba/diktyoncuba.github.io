@@ -13,6 +13,7 @@ tags:
     - Cuba
     - Derechos digitales
     - Monitoreo
+weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 > [Descargar aquí el Informe 9 completo](https://github.com/diktyoncuba/public/blob/main/Informes/Informe-9_Abr-Jun-2026.pdf)
