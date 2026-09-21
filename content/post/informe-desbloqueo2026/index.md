@@ -41,9 +41,9 @@ Entre los portales que ahora se pueden visitar libremente se encuentran:
 
 Las mediciones de OONI Explorer realizadas entre el 17 y 19 de septiembre de 2026 confirman que estos sitios son accesibles desde redes cubanas. Ejemplos de pruebas:
 
-- Medición 1
-- Medición 2
-- Medición 3
+- [Medición 1](https://explorer.ooni.org/m/20260919144222.458323_CU_webconnectivity_a22b97e7d51d7759?webview=true&language=en-US) 
+- [Medición 2](https://explorer.ooni.org/m/20260919144204.686413_CU_webconnectivity_01b7c6dc2637c44e?webview=true&language=en-US)
+- [Medición 3](https://explorer.ooni.org/m/20260919144212.440180_CU_webconnectivity_4cc4ab753a74e5c6?webview=true&language=en-US)
 
 Los resultados muestran conectividad normal y ausencia de bloqueos por DNS, TCP/IP o HTTP, lo que respalda la hipótesis de un levantamiento de la censura.
 
