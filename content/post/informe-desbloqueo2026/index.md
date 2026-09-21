@@ -10,10 +10,10 @@ tags:
     - DPI
     - Cuba
     - Monitoreo
-#weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-> [Descargar aquí este informe](Extras/20260921-Desbloqueos_sept_2026.pdf)
+> [Descargar aquí este informe](https://github.com/diktyoncuba/public/blob/main/Extras/20260921-Desbloqueos_sept_2026.pdf)
 
 ## Lo que está ocurriendo
 
