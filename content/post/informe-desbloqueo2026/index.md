@@ -2,7 +2,7 @@
 title: Informe sobre el desbloqueo de sitios web en Cuba
 description: Informe sobre los desbloqueos de censura de sitios web - Septiembre 2026
 date: 2026-09-21 00:00:00+0000
-image: broken-chains.jpg
+image: broken-chains.png
 categories:
     - Informes
 tags:
