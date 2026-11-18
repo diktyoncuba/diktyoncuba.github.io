@@ -27,7 +27,7 @@ Durante nuestro monitoreo en los meses de septiembre, octubre y noviembre de 202
 
 - En el informe anterior descubrimos que al solicitar la versión **HTTPS** de 12 de los 60 dominios bloqueados, OONI los catalogaba como mediciones fallidas y que en realidad estaban siendo censurados mediante tecnología DPI. Este mes, **hemos agregado 20 dominios** más a esta lista, lo que suma un total de 32 dominios con mediciones fallidas en múltiples ocasiones que en realidad se trata de censura.
 
-Para este informe, utilizamos las herramientas del Observatorio Abierto de Interferencias de la Red (OONI, por sus siglas en inglés): **OONI Probe** para obtener muestras, OONI Explorer para analizarlas y OONI MAT para crear gráficas.
+Para este informe, utilizamos las herramientas del Observatorio Abierto de Interferencias de la Red (OONI, por sus siglas en inglés): **OONI Probe**, para obtener muestras, OONI Explorer para analizarlas y OONI MAT para crear gráficas.
 
 También realizamos capturas de paquetes de tráfico con la herramienta **WireShark** para poder examinar los protocolos en detalle.
 
