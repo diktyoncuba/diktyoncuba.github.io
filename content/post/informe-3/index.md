@@ -23,7 +23,7 @@ tags:
 
 Durante nuestro monitoreo en los meses de septiembre, octubre y noviembre de 2023, se encontró que **67** de los 240 dominios examinados, principalmente sitios de noticias y derechos humanos, estaban bloqueados en Cuba. Utilizamos 217 sitios de la lista de CitizenLab para Cuba y agregamos otros 23 con alta probabilidad de bloqueo en la isla para este estudio.
 
-- En Cuba se bloquearon 49 sitios web utilizando tecnología de **inspección profunda de paquetes (DPI)**, manipulando la transmisión de paquetes.
+- En Cuba, se bloquearon 49 sitios web utilizando tecnología de **inspección profunda de paquetes (DPI)**, manipulando la transmisión de paquetes.
 
 - En el informe anterior descubrimos que al solicitar la versión **HTTPS** de 12 de los 60 dominios bloqueados, OONI los catalogaba como mediciones fallidas y que en realidad estaban siendo censurados mediante tecnología DPI. Este mes, **hemos agregado 20 dominios** más a esta lista, lo que suma un total de 32 dominios con mediciones fallidas en múltiples ocasiones que en realidad se trata de censura.
 
